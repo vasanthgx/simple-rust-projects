@@ -63,30 +63,5 @@ Project 3 : [CLI-Calculator](https://github.com/vasanthgx/cli-calculator-rust)
 
 Description : This project is a simple command-line calculator written in Rust. It accepts three arguments: two numbers and an operator. The calculator performs basic arithmetic operations—addition, subtraction, multiplication, and division—based on the provided operator and prints the result.
 
-### Usage
 
-To use the calculator, run the compiled binary with the following syntax:
-
-```sh
-cargo run -- <number1> <operator> <number2>
-```
-
-For example:
-
-```sh
-cargo run -- 5 + 3
-```
-
-This will output:
-
-```
-5 + 3 = 8
-```
-
-### Supported Operators
-
-- `+` for addition
-- `-` for subtraction
-- `*`, `x`, `X` for multiplication
-- `/` for division
 
