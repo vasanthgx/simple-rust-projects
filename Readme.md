@@ -64,4 +64,33 @@ Project 3 : [CLI-Calculator](https://github.com/vasanthgx/cli-calculator-rust)
 Description : This project is a simple command-line calculator written in Rust. It accepts three arguments: two numbers and an operator. The calculator performs basic arithmetic operations—addition, subtraction, multiplication, and division—based on the provided operator and prints the result.
 
 
+Project 4 : [Image-Combiner](https://github.com/vasanthgx/combiner)
+
+Description : This Rust project combines two images by alternating their pixel data. The program reads two images, ensures they have the same format, resizes them to the smallest dimensions, and then merges them by alternating pixel blocks from each image. The result is saved as a new image file.
+
+### Features
+
+- **Image Format Verification:** Ensures both images are of the same format.
+- **Image Resizing:** Standardizes the size of both images to the smallest dimensions.
+- **Pixel Alternation:** Combines the images by alternating 4-byte RGBA pixel blocks.
+- **Output Image Creation:** Saves the combined image to a specified file.
+
+### Usage
+
+To run the program, use:
+
+```sh
+cargo run -- <path_to_image_1> <path_to_image_2> <output_path>
+```
+
+Example:
+
+```sh
+cargo run -- image1.png image2.png output.png
+```
+
+This will create an `output.png` file with the combined image data from `image1.png` and `image2.png`.
+
+---
+
 
