@@ -94,3 +94,49 @@ This will create an `output.png` file with the combined image data from `image1.
 ---
 
 
+
+Project 5 : [Guess the Number](https://github.com/vasanthgx/guessing_game)
+
+Description: Welcome to the "Guess the Number" game! This simple yet engaging project is a console-based number guessing game implemented in Rust. The game randomly generates a secret number between 1 and 100, and the player's goal is to guess this number. The program provides feedback on whether the guess is too low, too high, or correct. The game continues to prompt the player for guesses until the correct number is guessed.
+
+#### Key Features:
+- **Random Number Generation**: Utilizes the `rand` crate to generate a random number between 1 and 100.
+- **User Input Handling**: Reads user input from the command line.
+- **Input Validation**: Ensures that the user input is a valid number.
+- **Feedback Loop**: Provides feedback on whether the guess is too low, too high, or correct.
+- **Looping Mechanism**: Continues to prompt the user for guesses until the correct number is guessed.
+
+### Usage
+
+1. **Install Rust**: Ensure you have Rust installed on your machine. If not, you can install it by following the instructions at [rust-lang.org](https://www.rust-lang.org/).
+
+2. **Clone the Repository**: Clone this repository to your local machine using:
+   ```sh
+   git clone https://github.com/your-username/guess-the-number.git
+   ```
+
+3. **Navigate to the Project Directory**:
+   ```sh
+   cd guess-the-number
+   ```
+
+4. **Build the Project**:
+   ```sh
+   cargo build
+   ```
+
+5. **Run the Project**:
+   ```sh
+   cargo run
+   ```
+
+6. **Play the Game**: Follow the on-screen instructions to input your guesses. The game will provide feedback and continue until you guess the correct number.
+
+### Concepts Covered
+
+- **Random Number Generation**: Using the `rand` crate to generate random numbers.
+- **Standard Library Modules**: Utilizing `std::io` for input handling and `std::cmp` for comparisons.
+- **Pattern Matching**: Using the `match` statement for control flow based on the comparison results.
+- **Error Handling**: Utilizing the `expect` method to handle potential errors in reading input.
+- **Looping**: Using the `loop` keyword to create an infinite loop until the correct guess is made.
+
